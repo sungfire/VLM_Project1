@@ -1,0 +1,9 @@
+# zoom-stage variants evaluated with src.zoom_sweep (crop params as in pipeline.make_crop_box/zoom)
+- {name: z1024_e2,      zoom_tokens: 1024, expand: 2.0, min_side_frac: 0.25}
+- {name: z1024_e3,      zoom_tokens: 1024, expand: 3.0, min_side_frac: 0.35}
+- {name: z1536_e2,      zoom_tokens: 1536, expand: 2.0, min_side_frac: 0.25}
+- {name: t256_z1024_e2, zoom_tokens: 1024, expand: 2.0, min_side_frac: 0.25, thumb_tokens: 256}
+- {name: t512_z1024_e2, zoom_tokens: 1024, expand: 2.0, min_side_frac: 0.25, thumb_tokens: 512}
+- {name: z1024_e2_up2,  zoom_tokens: 1024, expand: 2.0, min_side_frac: 0.25, zoom_max_scale: 2.0}
+- {name: z2048_e2,      zoom_tokens: 2048, expand: 2.0, min_side_frac: 0.25}
+- {name: g4096,         kind: global, tokens: 4096}

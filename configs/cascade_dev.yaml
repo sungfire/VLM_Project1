@@ -1,0 +1,11 @@
+name: cascade_dev
+strategy: cascade
+probe_tokens: 1024
+locate_tokens: 1024
+zoom_tokens: 1024
+zoom_max_scale: 1.0
+expand: 2.0
+min_side_frac: 0.25
+thumb_tokens: 0
+alpha: 0.0
+tau: null

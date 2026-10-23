@@ -1,0 +1,7 @@
+name: success2_2k
+strategy: routed
+probe_tokens: 1024
+tau: 0.999
+type_th: 0.3
+single: {zoom_tokens: 1024, expand: 2.0, min_side_frac: 0.25, alpha: 0.25}
+relational: null

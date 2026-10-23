@@ -1,0 +1,8 @@
+# larger escalation variants for the 4K budget (probe 2048)
+- {name: z2048_e2,      zoom_tokens: 2048, expand: 2.0, min_side_frac: 0.25}
+- {name: z2048_e3,      zoom_tokens: 2048, expand: 3.0, min_side_frac: 0.35}
+- {name: z2048_e2_up2,  zoom_tokens: 2048, expand: 2.0, min_side_frac: 0.25, zoom_max_scale: 2.0}
+- {name: t1024_z2048_e2, zoom_tokens: 2048, expand: 2.0, min_side_frac: 0.25, thumb_tokens: 1024}
+- {name: z3072_e3,      zoom_tokens: 3072, expand: 3.0, min_side_frac: 0.35}
+- {name: g4096,         kind: global, tokens: 4096}
+- {name: g6144,         kind: global, tokens: 6144}

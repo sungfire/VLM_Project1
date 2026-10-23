@@ -1,0 +1,6 @@
+name: tiling_4096
+strategy: tiling
+thumb_tokens: 1024
+rows: 2
+cols: 2
+tile_tokens: 768

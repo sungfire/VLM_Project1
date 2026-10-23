@@ -1,0 +1,6 @@
+# environment / large local data (download with scripts/download.py)
+.venv/
+data/
+__pycache__/
+*.pyc
+logs/
